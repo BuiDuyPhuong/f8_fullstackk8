@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Access Manager</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th style="text-align: left; font-weight: 10; width: 100px">
+            <label for="Username">Username:</label>
+          </th>
+          <td style="padding-left: 50px">
+            <input type="text" name="Username" id="Username" required />
+          </td>
+        </tr>
+        <tr>
+          <th style="text-align: left; font-weight: 10">
+            <label for="Password">Password:</label>
+          </th>
+          <td style="padding-left: 50px">
+            <input type="Password" name="Password" id="Password" required />
+          </td>
+        </tr>
+        <tr>
+          <th style="text-align: left; font-weight: 10">
+            <label for="City">City of Employment:</label>
+          </th>
+          <td style="padding-left: 50px">
+            <input type="text" name="City of Employment" id="City" required />
+          </td>
+        </tr>
+        <tr>
+          <th style="text-align: left; font-weight: 10">Web Server:</th>
+          <td style="padding-left: 50px">
+            <select name="Web Server" id="WebServer">
+              <option value="0">-Choose a server-</option>
+              <option value="1">Face</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th style="text-align: left; font-weight: 10">
+            Please specify your role :
+          </th>
+
+          <td style="padding-left: 50px">
+            <div>
+              <label><input type="radio" name="Role" value="0" />Admin</label>
+            </div>
+            <div>
+              <label
+                ><input type="radio" name="Role" value="1" />Engineer</label
+              >
+            </div>
+            <div>
+              <label><input type="radio" name="Role" value="2" />Manager</label>
+            </div>
+            <div>
+              <label><input type="radio" name="Role" value="3" />Guest</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th style="font-weight: 10; text-align: left">
+            Single Sign-on co the following:
+          </th>
+          <td style="padding-left: 50px">
+            <div>
+              <label
+                ><input type="checkbox" name="Sign-on" value="0" />Mail</label
+              >
+            </div>
+            <div>
+              <label
+                ><input
+                  type="checkbox"
+                  name="Sign-on"
+                  value="1"
+                />Payroll</label
+              >
+            </div>
+            <div>
+              <label
+                ><input
+                  type="checkbox"
+                  name="Sing-on"
+                  value="2"
+                />Self-service</label
+              >
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div style="margin-left: 150px">
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+</html>
