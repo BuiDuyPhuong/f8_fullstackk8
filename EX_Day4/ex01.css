@@ -1,0 +1,36 @@
+.Email-info {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.Sub {
+  background-color: #46465f;
+  width: 50%;
+}
+.text {
+  width: 100%;
+}
+span {
+  color: rgb(236, 156, 8);
+}
+.Email input {
+  height: 30px;
+  border: none;
+}
+button {
+  height: 35px;
+  border: none;
+}
+.push {
+  padding-left: 10px;
+}
+input:hover::placeholder {
+  color: rgb(236, 156, 8);
+}
+input:hover {
+  background-color: #ddd;
+}
+button:hover {
+  background-color: rgb(236, 156, 8);
+  color: #fff;
+}

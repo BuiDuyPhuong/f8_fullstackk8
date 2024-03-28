@@ -1,0 +1,128 @@
+.best-seller {
+  text-align: center;
+  width: 1500px;
+  margin: 0 auto;
+}
+.list-item td {
+  padding: 30px;
+  width: 10%;
+}
+.img-item {
+  margin: 0 auto;
+}
+.Items .list-tab {
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+}
+table.list-tab td {
+  border: 1px solid;
+}
+.selection,
+.add {
+  color: transparent;
+  background-color: transparent;
+}
+
+#tab-input-1:checked ~ .list-tab .tab-1,
+#tab-input-2:checked ~ .list-tab .tab-2,
+#tab-input-3:checked ~ .list-tab .tab-3,
+#tab-input-4:checked ~ .list-tab .tab-4,
+#tab-input-5:checked ~ .list-tab .tab-5 {
+  background-color: rgb(58, 58, 156);
+  color: white;
+}
+
+.img-item:hover .selection,
+.img-item:hover .add {
+  background-color: rgb(58, 58, 156);
+  color: white;
+}
+.gold {
+  color: yellow;
+}
+.sliver {
+  color: gray;
+}
+/* tab1 */
+#tab-input-1:checked ~ .list-item .img-item {
+  background-image: url(../img/20231123_MuBILgpcJf.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tab-input-1:checked ~ .list-item .img-item:hover {
+  background-image: url(../img/shiseido-aqualabel-mau-xanh-5.jpg);
+  background-size: cover;
+}
+#tab-input-1:checked ~ .list-item .name-item::before {
+  content: "AQualabel";
+}
+#tab-input-1:checked ~ .list-item .price-item::after {
+  content: "500$";
+}
+
+/* tab2 */
+#tab-input-2:checked ~ .list-item .img-item {
+  background-image: url(../img/san-pham-dau-goi-buoi-damode.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tab-input-2:checked ~ .list-item .img-item:hover {
+  background-image: url(../img/2-1627713883.jpg);
+  background-size: cover;
+}
+#tab-input-2:checked ~ .list-item .name-item::before {
+  content: "Grapefruit";
+}
+#tab-input-2:checked ~ .list-item .price-item::after {
+  content: "200$";
+}
+/* tab3 */
+#tab-input-3:checked ~ .list-item .img-item {
+  background-image: url(../img/cosmetis1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tab-input-3:checked ~ .list-item .img-item:hover {
+  background-image: url(../img/cosmetis2.jpg);
+  background-size: cover;
+}
+#tab-input-3:checked ~ .list-item .name-item::before {
+  content: "GuGi";
+}
+#tab-input-3:checked ~ .list-item .price-item::after {
+  content: "100$";
+}
+/* tab4 */
+#tab-input-4:checked ~ .list-item .img-item {
+  background-image: url(../img/Fragance0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tab-input-4:checked ~ .list-item .img-item:hover {
+  background-image: url(../img/Fragance1.jpg);
+  background-size: cover;
+}
+#tab-input-4:checked ~ .list-item .name-item::before {
+  content: "LuisVuiton";
+}
+#tab-input-4:checked ~ .list-item .price-item::after {
+  content: "300$";
+}
+/* tab5 */
+#tab-input-5:checked ~ .list-item .img-item {
+  background-image: url(../img/makeup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tab-input-5:checked ~ .list-item .img-item:hover {
+  background-image: url(../img/makeup2.jpg);
+  background-size: cover;
+}
+#tab-input-5:checked ~ .list-item .name-item::before {
+  content: "Make-up 3ce";
+}
+#tab-input-5:checked ~ .list-item .price-item::after {
+  content: "50$";
+}

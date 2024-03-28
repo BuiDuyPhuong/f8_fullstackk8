@@ -1,0 +1,49 @@
+.reservation {
+  width: 100%;
+  text-align: center;
+}
+
+h2 table {
+  width: 100%;
+}
+td {
+  padding: 15px 15px;
+}
+h3,
+input {
+  font-family: "BebasNeue";
+  font-size: 20px;
+}
+h2,
+button {
+  font-family: "Alfa Slab One";
+}
+input {
+  padding-left: 20px;
+  height: 50px;
+  width: 500px;
+}
+h2 {
+  font-size: 70px;
+  font-weight: 900;
+}
+table {
+  padding-left: 150px;
+}
+h3 {
+  margin-top: 50px;
+}
+
+button {
+  color: white;
+  border: none;
+  background-color: rgb(128, 20, 20);
+  height: 50px;
+  width: 500px;
+  border-radius: 5px;
+}
+h2,
+h3,
+input {
+  color: rgb(40, 6, 6);
+}
