@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services {
+  text-align: center;
+  padding: 50px;
+}
+.services-list {
+  display: flex;
+  padding-left: 15%;
+  margin-top: 50px;
+  width: 100%;
+}
+.item {
+  height: 350px;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 0 5px;
+}
+.services-list .item i {
+  margin-top: 25px;
+  padding-top: 30px;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: white;
+  color: rgb(235, 158, 15);
+  width: 100px;
+  height: 100px;
+}
+button {
+  margin-top: 25px;
+  background-color: rgb(235, 158, 15);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+}
+h3 {
+  margin-top: 20px;
+}
+p {
+  margin-top: 25px;
+  opacity: 0.5;
+}
