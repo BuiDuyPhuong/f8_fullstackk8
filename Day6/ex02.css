@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Roboto, sans-serif;
+}
+body {
+  background-color: #ebf5fe;
+  line-height: 1.5;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #666666;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title {
+  display: flex;
+}
+.icon {
+  font-size: 40px;
+
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: #fff;
+  background-color: red;
+}
+.icon-unique {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 2%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.icon-theme {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(75, 253, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.icon-digital {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 248, 29, 1) 0%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.icon-website {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(234, 235, 238, 1) 0%,
+    rgba(119, 118, 233, 1) 44%,
+    rgba(17, 13, 228, 1) 100%
+  );
+}
+.icon-reposive {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(233, 118, 232, 1) 33%,
+    rgba(160, 13, 228, 1) 91%,
+    rgba(234, 235, 238, 1) 100%
+  );
+}
+.icon-support {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(244, 250, 244, 1) 0%,
+    rgba(6, 249, 17, 1) 0%,
+    rgba(246, 242, 247, 1) 100%,
+    rgba(234, 235, 238, 1) 100%
+  );
+}
+.item {
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 30%;
+  margin: 12px;
+  padding: 16px;
+
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+.link {
+  text-decoration: none;
+  color: blue;
+  font-weight: 900;
+}
+.item:hover {
+  border-color: rgb(249, 13, 13);
+  box-shadow: rgba(3, 0, 0, 0.951) 0px 10px 10px 0px;
+}

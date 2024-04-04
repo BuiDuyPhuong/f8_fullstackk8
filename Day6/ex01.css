@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "lato";
+  src: url(../Font/Lato-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: lato, sans-serif;
+}
+h2 {
+  font-family: lobster, sans-serif;
+  font-size: 50px;
+  margin-bottom: 12px;
+  font-weight: 300;
+}
+section .text {
+  color: rgb(171, 169, 169);
+  margin-bottom: 15px;
+  width: 50%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+section .text span {
+  color: red;
+}
+label select {
+  appearance: none;
+}
+textarea {
+  resize: none;
+}
+.info {
+  padding: 10px;
+  width: 500px;
+}
+.info > label {
+  position: relative;
+  display: flex;
+  border: 1px solid rgb(162, 160, 160);
+  margin-bottom: 20px;
+  background: gray;
+}
+.info > label .icon {
+  padding: 20px;
+}
+
+.info > label .icon-left {
+  color: white;
+}
+.info > label .icon-right {
+  color: rgb(171, 169, 169);
+  background-color: #fff;
+  font-size: 10px;
+}
+
+.info label > input,
+.info label > select,
+.info label > textarea {
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.info > label:hover {
+  border-color: rgb(30, 30, 30);
+}
+.info > label:hover .icon-left {
+  background-color: rgb(30, 30, 30);
+}
+.Info > label:hover .icon-right {
+  color: rgb(30, 30, 30);
+}
+.info > label:focus-within {
+  border-color: rgb(30, 30, 30);
+}
+.info > label :focus-within .icon-left {
+  background-color: rgb(30, 30, 30);
+}
+.info > label:focus-within .icon-right,
+.info > label :focus-within .icon-arrows {
+  color: rgb(30, 30, 30);
+}
+.request {
+  display: none;
+}
+.info > label:focus-within .request {
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  padding: 5px 5px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+.info > label:focus-within .request::before {
+  content: "";
+  bottom: -11px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid rgb(30, 30, 30);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.info > label .icon-right .icon-x {
+  display: none;
+}
+.info > label:focus-within .icon-right .icon-x {
+  display: inline;
+}
+.info > label:focus-within .icon-right .icon-star {
+  display: none;
+}
+.info > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info div:last-child label {
+  display: flex;
+}
+.icon-check {
+  width: 25px;
+  height: 25px;
+  color: black;
+  border: 3px solid rgb(171, 169, 169);
+  background-color: white;
+  text-align: center;
+  margin-right: 5px;
+}
+.icon-check i {
+  display: none;
+}
+.check label input[type="checkbox"]:checked + .icon-check i {
+  display: inline;
+}
+
+.btn {
+  padding: 5px;
+  height: 35px;
+  width: 100px;
+  background-color: rgb(235, 61, 34);
+  color: white;
+  outline: none;
+  border: none;
+}
