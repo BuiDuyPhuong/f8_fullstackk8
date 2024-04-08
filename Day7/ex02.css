@@ -11,9 +11,7 @@ html {
 
 body {
   height: 100vh;
-  background: #ccc
-    url("http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg") no-repeat
-    center;
+  background: #ccc url("../img/login-bg2.jpg") no-repeat center;
   background-size: cover;
 }
 
