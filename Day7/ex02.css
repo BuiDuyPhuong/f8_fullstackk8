@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #ccc
+    url("http://uiwebsoft.com/justlog/login-one/images/login-bg2.jpg") no-repeat
+    center;
+  background-size: cover;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  outline-color: #f47871;
+  border: none;
+  cursor: pointer;
+}
+.form {
+  background-color: #ff574d;
+}
+.login {
+  background-color: #ff574d;
+  color: white;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  color: white;
+}
+.hight-header {
+  color: #ff574d;
+}
+.logo {
+  background-color: white;
+  color: #ff574d;
+  padding: 0 7px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.secition {
+  font-size: 1.6rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+}
+
+#input:checked ~ .form {
+  transform: translateX(50%);
+}
+
+#input:checked ~ .info {
+  transform: translateX(-35%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#input:checked ~ .info .btn-sidebar label {
+  rotate: 180deg;
+}
+
+.info,
+.form {
+  transition: all ease-in-out 0.5s;
+}
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.introduction {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-wrap {
+  padding: 20px;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.btn-read-more a {
+  text-decoration: none;
+  display: block;
+  color: #f47871;
+}
+
+.list-contact {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.list-contact-item {
+  background-color: #db5c4f;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.list-contact-item:hover {
+  opacity: 0.8;
+}
+
+.info {
+  width: 60%;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 40px;
+  position: relative;
+  background-color: white;
+  color: #717171;
+}
+
+.show-sidebar {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  background-color: white;
+  color: #ff574d;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.show-sidebar label {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: block;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.form-content-header {
+  color: #272323;
+  margin-bottom: 30px;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  height: 2px;
+  width: 100%;
+  background-color: #ff574d;
+}
+
+.form-content-footer,
+.submit-wrap,
+.form-assist,
+.form-info {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  outline-color: #f47871;
+}
+
+.form-input:hover {
+  border-color: #f47871;
+}
+
+.form-checkbox,
+.form-input {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+.form-assist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.form-remember {
+  cursor: pointer;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
